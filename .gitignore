@@ -1,0 +1,22 @@
+# Pierre's Power Scraper
+# ======================
+# Standalone, high-throughput extraction engine.
+# Completely isolated from Hermes / OpenClaw.
+
+# Python & virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & credentials
+.env
+*.local.env
+
+# Runtime outputs & caches
+logs/
+data/
+cache/
+*.log
+remote_url.txt
